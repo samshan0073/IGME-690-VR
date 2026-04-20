@@ -19,7 +19,7 @@ public class FakeScan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && !isPlaying)
+        if (Input.GetKeyDown(KeyCode.F) && !isPlaying)
         {
             isPlaying = true;
             t = 0f;
